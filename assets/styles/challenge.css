@@ -40,7 +40,7 @@ button{
     color: #fff;
     border-radius: 5px;
     margin-top: 20px;
-    font-size: 18px;
+    font-size: 28px;
     background: darkblue;
 }
 #error-txt{
@@ -55,4 +55,7 @@ button{
     border-radius: 3px;
     border: 1px solid #EF9A9A;
     display: none;
+}
+.reset{
+    background: #C62828;
 }
