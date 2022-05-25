@@ -59,3 +59,13 @@ button{
 .reset{
     background: #C62828;
 }
+p{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 18px;
+    color: #474747;
+}
+p span{
+    font-weight: 700;
+    color: black;
+}
