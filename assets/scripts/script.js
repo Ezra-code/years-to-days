@@ -19,7 +19,7 @@ function ageInDays(){
 }
 
 function reset() {
-    document.getElementById('age').remove()
+    inputEl.value = ''
 }
 inputEl.addEventListener('keypress', () => {
     errorTxt.style.display = 'none'
