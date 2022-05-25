@@ -12,7 +12,7 @@ function ageInDays(){
         let birthYear = inputEl.value
         yearsInDays = (2022 - birthYear) * 365
         console.log(yearsInDays)
-        age = yearsInDays
+        age.innerHTML = yearsInDays
         displayEl.style.display ='block'
         
     }
@@ -20,6 +20,7 @@ function ageInDays(){
 
 function reset() {
     inputEl.value = ''
+    displayEl.style.display = 'none'
 }
 inputEl.addEventListener('keypress', () => {
     errorTxt.style.display = 'none'
