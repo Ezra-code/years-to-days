@@ -43,7 +43,8 @@ button{
     font-size: 28px;
     background: darkblue;
 }
-#error-txt{
+#error-txt, 
+#error-el{
     margin: 10px;
     margin-left: 2px;
     width: 100%;
@@ -54,7 +55,6 @@ button{
     padding: 5px 8px;
     border-radius: 3px;
     border: 1px solid #EF9A9A;
-    display: none;
 }
 .reset{
     background: #C62828;
@@ -64,6 +64,7 @@ p{
     margin-top: 15px;
     font-size: 18px;
     color: #474747;
+    display: none;
 }
 p span{
     font-weight: 700;
