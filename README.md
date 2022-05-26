@@ -21,7 +21,7 @@ As a user of the application,you will be able to :
 * Submit the year of birth using a click me button
 * Get your age in days 
 * reset or clear if you entered the wrong year
-[Go Back to the top](#AgeInDays)
+[Go Back to the top](#Age-In-Days)
  ###  Requirements
  * Access to  a computer or any other garget
  * Access to internet
@@ -31,18 +31,18 @@ As a user of the application,you will be able to :
 * Unzip the downloaded files in a folder of choice.
 * Open the index file from the zipped file with any browser.
  ****
- [Go Back to the top](#AgeInDays)
+ [Go Back to the top](#Age-In-Days)
 ### Live Link
 - Click this link to view the live application https://ezra-code.github.io/years-to-days/
 ### Technology  Used
 * HTML - which was used to develope the structure off the pages.
 * CSS - which was used to style the User Interface.
 * JavaScript (JS) - was used to make the page responsive
-[Go Back to the top](#AgeInDays)
+[Go Back to the top](#Age-In-Days)
 ## Instructions
 * please fill in all details
 ## Licence
 This project is licensed under the terms of the MIT license
-[Go Back to the top](#AgeInDays)
+[Go Back to the top](#Age-In-Days)
 ## Authors Info
 Ezra Njeru Kithinji 
