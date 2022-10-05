@@ -3,14 +3,15 @@ let displayEl = document.getElementById('display-el')
 let age = document.getElementById('age')
 let errorTxt = document.getElementById('error-txt')
 let errorEl =document.getElementById('error-el')
+let year = new Date().getFullYear()
 function ageInDays(){
     if(inputEl.value == ''){
         errorTxt.style.display = 'block'
-    }else if(isNaN(inputEl.value) || inputEl.value > 2022){
+    }else if(isNaN(inputEl.value) || inputEl.value > year){
         errorEl.style.display = 'block'
     }else{
         let birthYear = inputEl.value
-        yearsInDays = (2022 - birthYear) * 365
+        yearsInDays = (year - birthYear) * 365
         console.log(yearsInDays)
         age.innerHTML = yearsInDays
         displayEl.style.display ='block'
